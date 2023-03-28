@@ -3,29 +3,34 @@ package Trabalho_01_AnaLauraMonteiro;
 import java.util.Scanner;
 
 public class Exercicio3 {
+
     public static void main(String[] args) {
-        int num;
-        Scanner input = new Scanner(System.in); 
-        System.out.println("Digite um número de 1 a 7: ");
-        num = input.nextInt(); 
+        Scanner input = new Scanner(System.in);
+        int n, s;
 
-        if (num == 1) { 
-            System.out.print("O número 1 corresponde a Segunda-feira \n");
-         else if (num == 2) {
-                System.out.print("O número 2 corresponde a Terça-feira \n");
-    }else if (num == 3) {
-                System.out.print("O número 3 corresponde a Quarta-feira \n");
-    }else if (num == 4) {
-                System.out.print("O número 4 corresponde a Quinta-feira \n");
-    }else if (num == 5) {
-                System.out.print("O número 5 corresponde a Sexta-feira \n");
-    }else if (num == 6) {
-                System.out.print("O número 6 corresponde a Sábado \n");
-    }else (num == 7) {
-                System.out.print("O número 7 corresponde a Domingo \n");
+        System.out.println("Digite um número de 1 à 7 para o dia da semana coreespondente: ");
+        n = input.nextInt();
 
-           }  
-
+        if (n == 1)
+        {
+            System.out.print("O número 1 corresponde à Segunda-feira \n");
+        }else if (n == 2){
+            System.out.print("O número 2 corresponde à Terça-feira \n");
+        }else if (n == 3) {
+            System.out.print("O número 3 corresponde à Quarta-feira \n");
+        }else if (n == 4){
+            System.out.print("O número 4 corresponde à Quinta-feira \n");
+        }else if (n == 5) {
+            System.out.print("O número 5 corresponde à Sexta-feira \n");
+        }else if (n == 6){
+            System.out.print("O número 6 corresponde à Sábado \n");
+        }else if (n == 7) {
+            System.out.print("O número 7 corresponde à Domingo \n");
         }
-    }
+        else if (n >= 8) {
+        System.out.print("Não tem \n");
+        }
 
+    
+    }
+}
