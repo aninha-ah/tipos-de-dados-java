@@ -26,7 +26,7 @@ public class Exercicio5 {
             System.out.print("Você está com Obesidade Grau I \n");
         } else if (imc >= 35.0 && imc <= 39.9){
             System.out.print("Você está com Obesidade Grau II \n");
-        } else (imc >= 35.0 && imc <= 39.9){
+        } else (imc >= 40.0){
             System.out.print("Você está com Obesidade Grau III \n");
         }
     }

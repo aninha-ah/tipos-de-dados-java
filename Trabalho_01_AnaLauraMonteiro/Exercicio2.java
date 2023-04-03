@@ -15,6 +15,7 @@ public class Exercicio2 {
         idade1 = input.nextInt(); 
         System.out.println("Digite a idade da segunda pessoa: ");
         idade2 = input.nextInt();
+        
             System.out.print("\n O nome da primeira pessoa é: " +  nome1);
             System.out.print("\n O nome da segunda pessoa é: " +  nome2);
 
